@@ -7,7 +7,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="sticky top-0 z-50 bg-[#F2F7FF] bg-opacity-40 p-3 backdrop-blur-md">
+    <div className="sticky top-0 z-50 bg-[#F2F7FF] bg-opacity-80 p-3 backdrop-blur-md">
       <div className="mx-auto flex max-w-screen-xl items-center justify-between">
         <a href="/">
           <img
