@@ -2,7 +2,7 @@ import { Button } from "./ui";
 
 export default function Hero() {
   return (
-    <div className="mx-auto mt-[80px] flex max-w-screen-xl flex-col-reverse items-center justify-between gap-4 px-2 pb-10 md:flex-row md:pb-[90px] lg:mt-[108px] lg:gap-[72px] lg:px-0">
+    <div className="mx-auto mt-[80px] flex max-w-screen-xl flex-col-reverse items-center justify-between gap-4 px-3 pb-10 md:flex-row md:pb-[90px] lg:mt-[108px] lg:gap-[72px] lg:px-0">
       <div className="mt-10 flex flex-col items-start gap-6 md:mt-0">
         <h5 className="font-poppins text-[22px] font-medium tracking-[0.44px] text-secondary">
           Dr. Matthew Anderson

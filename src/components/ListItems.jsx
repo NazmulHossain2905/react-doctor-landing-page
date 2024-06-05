@@ -5,7 +5,7 @@ import { PiPlusCircleBold } from "react-icons/pi";
 
 export default function ListItems() {
   return (
-    <div className="mx-auto flex max-w-screen-xl items-center justify-center gap-7">
+    <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-center gap-4 px-3 md:gap-7">
       <Item title="24 hour service" />
       <Item title="8 years of experience" Icon={FiCheckCircle} />
       <Item title="High quality care" Icon={PiPlusCircleBold} />
@@ -19,7 +19,7 @@ function Item({
   description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
 }) {
   return (
-    <div className="flex max-w-[295px] translate-y-[50%] items-center gap-3 rounded-[12px] bg-gradient-to-t from-[#65A8FB] to-[#1678F2] px-[18px] py-2 text-white">
+    <div className="flex w-max translate-y-[50%] items-center gap-3 rounded-[12px] bg-gradient-to-t from-[#65A8FB] to-[#1678F2] px-[18px] py-2 text-white md:max-w-[295px]">
       <div>
         <Icon className="size-[38px]" />
       </div>

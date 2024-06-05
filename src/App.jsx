@@ -2,17 +2,18 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import ListItems from "./components/ListItems";
+import About from "./components/About";
 
 function App() {
   return (
     <>
       <div className="bg-[#F2F7FF]">
         <Navbar />
-        <div>
-          <Hero />
-          <ListItems />
-        </div>
+        <Hero />
+        <ListItems />
       </div>
+
+      <About />
     </>
   );
 }
