@@ -5,6 +5,7 @@ import ListItems from "./components/ListItems";
 import About from "./components/About";
 import Services from "./components/Services";
 import ServiceCards from "./components/ServiceCards";
+import BookAnAppointment from "./components/BookAnAppointment";
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
         <Services />
         <ServiceCards />
       </div>
+
+      <BookAnAppointment />
     </>
   );
 }
