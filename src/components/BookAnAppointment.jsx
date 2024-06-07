@@ -3,7 +3,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 export default function BookAnAppointment() {
   return (
-    <div className="mx-auto mb-[213px] max-w-screen-xl px-3 pt-[148px]">
+    <div className="mx-auto mb-[130px] max-w-screen-xl px-3 pt-[80px] md:mb-[213px] md:pt-[148px]">
       <p className="mb-3 text-center font-poppins text-[22px] font-medium text-secondary">
         Book an appointment
       </p>
